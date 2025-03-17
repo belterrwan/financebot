@@ -32,7 +32,7 @@ export function ScrollToTopButton() {
     <AnimatePresence>
       {isVisible && (
         <motion.button
-          className="fixed bottom-4 right-4 z-50 p-2 rounded-full bg-[#9e48ec] text-white shadow-lg hover:bg-[#9e48ec]-dark focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 transition-colors duration-300"
+          className="fixed bottom-4 right-4 z-50 p-2 rounded-full bg-[#9e48ec] text-white shadow-lg hover:bg-[#9e48ec]-dark focus:outline-none focus:ring-2 focus:ring-[#9e48ec] focus:ring-opacity-50 transition-colors duration-300"
           onClick={scrollToTop}
           aria-label="Scroll to top"
           initial={{ opacity: 0, scale: 0.5 }}

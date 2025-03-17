@@ -7,7 +7,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="container mx-auto relative mt-5 md:mt-0 py-16 md:py-24 lg:py-32 overflow-hidden">
+    <section className="container mx-auto relative mt-5 md:mt-0 py-16 md:py-24 lg:py-32 overflow-hidden px-5 md:px-0">
       {/* Glow background */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-[#9042d6]/10 blur-[120px] pointer-events-none" />
           {/* <div className="absolute top-1/3 right-1/4 w-[300px] h-[300px] rounded-full bg-[#9042d6]/5 blur-[80px] pointer-events-none" />
@@ -32,11 +32,11 @@ export default function Hero() {
           </div>
 
           {/* Hero image */}
-          <div className="relative w-full max-w-[800px] h-[400px] mt-8 rounded-xl overflow-hidden shadow-2xl shadow-[#9042d6]/10">
+          <div className="relative w-full max-w-[800px] h-[210px] md:h-[400px] mt-8 px-10 rounded-xl overflow-hidden shadow-2xl shadow-[#9042d6]/10">
             <div className="absolute inset-0 bg-gradient-to-br from-[#9042d6]/20 to-transparent z-10 pointer-events-none" />
             <Image
               src="/heroImg.webp"
-              alt="FinanceBot Dashboard"
+              alt="Kakeibot Dashboard"
               fill
               className="object-cover"
             />

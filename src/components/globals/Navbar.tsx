@@ -7,12 +7,12 @@ export default function Navbar() {
   return (
     <>
       <header className="bg-[#09090b]/80 fixed w-full backdrop-blur-md supports-[backdrop-filter]:bg-[#09090b]/60 top-0 z-50 border-b border-[#1a1d2d]">
-        <div className="container mx-auto flex h-16 items-center md:justify-between justify-evenly">
+        <div className="container mx-auto flex h-16 items-center justify-between px-5 md:px-0">
           <Link href="/" className="flex items-center space-x-2">
             <div className="bg-[#9e48ec]/10 p-2 rounded-lg">
               <Bot className="h-6 w-6 text-[#9e48ec]" />
             </div>
-            <span className="text-xl font-bold text-white">FinanceBot</span>
+            <span className="text-xl font-bold text-white">Kakeibot</span>
           </Link>
           <nav className="hidden md:flex items-center space-x-6">
             <Link

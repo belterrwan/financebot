@@ -5,15 +5,15 @@ import React from 'react'
 
 export default function Features() {
   return (
-    <section id="features" className="py-24">
+    <section id="features" className="py-24 px-5 md:px-0">
     <div className="container mx-auto relative">
-      <div className="absolute top-1/2 left-1/4 w-[500px] h-[500px] rounded-full bg-[#9042d6]/5 blur-[150px] pointer-events-none" />
+      {/* <div className="absolute top-1/2 left-1/4 w-[500px] h-[500px] rounded-full bg-[#9042d6]/5 blur-[150px] pointer-events-none" /> */}
 
       <AnimateInView>
         <div className="text-center mb-16 relative z-10">
           <h2 className="text-4xl font-bold mb-4 text-white">Características Principales</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Descubre todas las herramientas que FinanceBot pone a tu disposición para optimizar tus finanzas
+            Descubre todas las herramientas que Kakeibot pone a tu disposición para optimizar tus finanzas
           </p>
         </div>
       </AnimateInView>

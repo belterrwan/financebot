@@ -4,12 +4,12 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="border-t border-[#1a2035]">
+    <footer className="border-t border-[#1a2035] px-5 md:px-0">
     <div className="container mx-auto flex flex-col gap-4 py-10 md:flex-row md:justify-between">
       <div className="flex flex-col gap-4 md:gap-2">
         <Link href="/" className="flex items-center space-x-2">
           <Bot className="h-5 w-5 text-[#9e48ec]" />
-          <span className="font-bold text-white">FinanceBot</span>
+          <span className="font-bold text-white">Kakeibot</span>
         </Link>
         <p className="text-sm text-muted-foreground">© 2025 BotFinance. Todos los derechos reservados.</p>
       </div>

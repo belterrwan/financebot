@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="py-24 relative overflow-hidden">
+    <section id="pricing" className="py-24 relative overflow-hidden px-5 md:px-0">
       <div className="absolute top-1/2 left-1/4 w-[300px] h-[300px] rounded-full bg-[#9042d6]/5 blur-[150px] pointer-events-none" />
 
       <div className="container mx-auto relative z-10">
@@ -68,7 +68,7 @@ export default function Pricing() {
                 className="rounded-2xl p-8 flex flex-col h-full"
                 glowColor="#9e48ec"
               >
-                    <div className="absolute top-4 right-0 flex justify-center">
+                    <div className="absolute md:top-4 md:right-0 -top-5 -right-5 flex justify-center">
                       <span className="bg-[#9e48ec] text-white px-4 py-1 rounded-full text-sm font-medium shadow-lg shadow-[#9e48ec]/20">
                         Recomendado
                       </span>

@@ -5,7 +5,7 @@ export default function HowItWorks() {
   return (
     <section id="how-it-works" className="py-24 relative overflow-hidden">
 
-      <div className="container mx-auto">
+      <div className="container mx-auto px-5 md:px-0">
         <AnimateInView>
           <div className="text-center mb-16">
           {/* <div className="absolute top-3/8 right-3/8 w-[100px] h-[100px] rounded-full bg-[#9042d6]/70 blur-[150px] pointer-events-none" /> */}
